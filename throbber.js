@@ -163,7 +163,7 @@ Throbber.prototype = {
         // If the throbber is visible, keep spinning it
         if(self.state === 1) {
             window.setTimeout(function() {
-                self.draw(self.ctx);
+                self.draw();
             }, 1000 / 30);
         }
     }
